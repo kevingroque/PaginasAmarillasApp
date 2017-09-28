@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">PaginasAmarillasApp</string>
     <string name="detalle_kfc">Todo comenzó con un pollo frito preparado por Harland Sanders, quien nació en Henryville Indiana en 1890. Desde pequeño aprendió a luchar por la vida, por tener la responsabilidad de cuidar a sus hermanos pequeños. Cuando su madre falleció y tuvo que trabajar para sostener a su familia. Sanders logró el dominio del arte culinario, después de haber intentado varias profesiones descubrió su verdadera vocación.</string>
+    <string name="detalle_scotiabank">SIN COSTO de mantenimiento.Sin monto mínimo de apertura.Retiros y depósitos ilimitados en ventanilla independientemente de la plaza donde se realicen.Operaciones ilimitadas y SIN COSTO de transferencias vía CCE por internet y ventanilla independientemente de la plaza donde se realicen. Retiros SIN COSTO en cajeros automáticos de la red Scotiabank. Puedes realizar consumos con tu Tarjeta de Débito ScotiaCard en miles de establecimientos afiliados SIN COSTO. Realiza pagos, transferencias, consultas de saldos y movimientos en nuestros canales virtuales (Scotia en Línea y Banca Móvil), Terminales de Pagos y Consultas, Cajeros Automáticos Scotiabank y Banca Telefónica SIN COSTO. No se cobra mantenimiento por Tarjeta de Débito Clásica.></string>
+    <string name="detalle_movilbus">Servicio con atención de tripulante a bordo con Salón Vip de asientos cama (160°) con pantallas individuales de entretenimiento y Salón Ejecutivo de asientos ergonómico semicama (140°), aire acondicionado, video, música, GPS satelital y servicios higiénicos.</string>
+    <string name="detalle_entel">Minutos, redes sociales, descuentos en entradas al cine, la mejor atención, promos y mucho más. Solo migra a Entel.</string>
+    <string name="text_url">www.companiadelsabor.com</string>
+    <string name="text_correo">informes@companiadelsabor.com</string>
+    <string name="text_rubro">Restarurante</string>
+    <string name="text_phone">012242625</string>
+    <string name="text_direccion">AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE</string>
+    <string name="tet_nombre_empresa">Compañia del sabor</string>
+    <string name="text_info">El sabor original del pollo desde 1960. Cumplimos con todos los estandares de calidaden los productos...</string>
+    <string name="detalle_comercio">DIRECTOR GENERAL:
+    Francisco Miró Quesada Cantuarias
+    DIRECTOR PERIODÍSTICO:
+    Fernando Berckemeyer Olaechea
+    SUSCRIPCIONES:
+    suscriptores@comercio.com.pe
+    PUBLICIDAD ONLINE:
+    fonoavisos@comercio.com.pe
+    CLUB EL COMERCIO:
+    clubelcomercio@comercio.com.pe
+    Compromiso de Autorregulación Comercial</string>
+    <string name="detalle_g4s">G4S trabaja para resguardar el bienestar y la prosperidad de millones de personas alrededor del mundo, ayudando a crear ambientes más seguros y cada vez mejores en los cuales la gente pued vivir y trabajar tranquila</string>
+    <string name="detalle_latam">Es importante recordar de dónde somos para saber a dónde queremos llegar. Antes de unirnos para formar la mayor compañía aérea de Latinoamérica tuvimos una historia llena de pionerismo, desafíos y conquistas que nos trajeron hasta aquí.</string>
+    <string name="detalle_texas">Somos un restaurant especialista en carnes, parrillas y vinos, el cual ofrece también una gran variedad de opciones gastronómicas para el deleite de nuestros comensales. Desde nuestros inicios, en el año 2012, nos esmeramos por satisfacer las necesidades de nuestros clientes logrando superar sus expectativas gracias a nuestro equipo de colaboradores altamente calificado y nuestra exquisita sazón.</string>
+    <string name="detalle_oftal">TG Laser Oftálmica es una clínica dedicada a brindar atención médica especializada en oftalmología con la más alta calidad.</string>
+    <string name="detalle_luz">Luz del Sur es una empresa privada de distribución de electricidad que atiende a más de un millón de clientes en la zona sur-este de Lima, capital del Perú. Nuestras ventas superan los 2,166 millones de nuevos soles anuales, convirtiéndonos en una de las más importantes empresas del país, y en una de las principales distribuidoras eléctricas de América Latina. Trabajamos para servir a millones de personas que buscan mejorar su calidad de vida, teniendo como misión brindar apoyo y satisfacción a todos nuestros clientes.</string>
 </resources>

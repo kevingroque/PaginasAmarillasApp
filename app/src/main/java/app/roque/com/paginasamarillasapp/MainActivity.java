@@ -38,33 +38,42 @@ public class MainActivity extends AppCompatActivity {
         Empresa emp1 = new Empresa("KFC","Restaurante",R.drawable.lg_kfc,
                 "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
                 "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
+
         Empresa emp2 = new Empresa("Scotiabank","Banco",R.drawable.lg_scotiabank,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
+                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","311 6000 ", "scotiabank123@hotmail.com",
+                "https://www.scotiabank.com.pe/Personas/Default",getResources().getString(R.string.detalle_scotiabank) ,"002");
+
         Empresa emp3 = new Empresa("Móvil Bus","Transporte",R.drawable.lg_movilbus,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp4 = new Empresa("El Comercio","Transporte",R.drawable.lg_comercio,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
+                "Paseo de la República N° 749, La Victoría","(01) 716 8000 ", "info@moviltours.com.pe",
+                "http://www.moviltours.com.pe/servicios/ejecutivo-vip-movil-Bus/",getResources().getString(R.string.detalle_movilbus) ,"003");
+
+        Empresa emp4 = new Empresa("El Comercio","Noticias",R.drawable.lg_comercio,
+                "Jr. Santa Rosa #300","505-0505 ", "elcomercio123@hotmail.com",
+                "http://elcomercio.pe/",getResources().getString(R.string.detalle_comercio) ,"004");
+
         Empresa emp5 = new Empresa("Entel","Telefonia",R.drawable.lg_entel,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp6 = new Empresa("G4S","Seguridad",R.drawable.lg_g4s,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp7 = new Empresa("Latam","Transporte/ Aerolineas",R.drawable.lg_latam,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp8 = new Empresa("Texas Steak","Restaurante",R.drawable.lg_texas,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp9 = new Empresa("Oftalmica","Oftalmica",R.drawable.lg_oftalmica,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
-        Empresa emp10 = new Empresa("Luz del sur","Transporte",R.drawable.lg_luzdelsur,
-                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","505-0505 ", "kfc123@hotmail.com",
-                "https://www.kfc.com.pe/Online",getResources().getString(R.string.detalle_kfc) ,"001");
+                "Av. Paseo de la República 3490","505-0505 ", "entel123@hotmail.com",
+                "http://www.entel.pe/",getResources().getString(R.string.detalle_entel) ,"005");
+
+        Empresa emp6 = new Empresa("Latam","Transporte/ Aerolineas",R.drawable.lg_latam,
+                "Centro Comercial Jockey Plaza, Av. Javier Prado Este 4200, Tienda 202, 2do piso, Cercado de Lima","505-0505 ", "latam123@hotmail.com",
+                "https://www.latam.com/es_pe/",getResources().getString(R.string.detalle_latam) ,"006");
+
+        Empresa emp7 = new Empresa("Texas Steakhouse","Restaurante",R.drawable.lg_texas,
+                "Av. Defensores del Morro 1803, Chorrillos","5186719", "texasSteakhouse123@hotmail.com",
+                "http://www.texasshperu.com/",getResources().getString(R.string.detalle_texas) ,"007");
+
+        Empresa emp8 = new Empresa("Tg Láser Oftálmica","Oftalmica",R.drawable.lg_oftalmica,
+                "Avenida 2 de Mayo, 666 San Isidro","(01) 4106569", "mtito@tglaseroftalmica.com",
+                "http://www.tglaseroftalmica.com",getResources().getString(R.string.detalle_oftal) ,"008");
+
+        Empresa emp9 = new Empresa("Luz del sur","Transporte",R.drawable.lg_luzdelsur,
+                "AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE","617-5000", "luzdelsur123@hotmail.com",
+                "https://www.luzdelsur.com.pe/",getResources().getString(R.string.detalle_luz) ,"009");
+
+        Empresa emp10 = new Empresa("G4S","Seguridad",R.drawable.lg_g4s,
+                "Los Ebanistas 146, Cercado de Lima 15023","+51(1)213-1200 ", "comercial.peru@pe.g4s.com",
+                "http://www.g4s.com.pe/",getResources().getString(R.string.detalle_g4s) ,"010");
 
         listaEmpresa.add(emp1);
         listaEmpresa.add(emp2);

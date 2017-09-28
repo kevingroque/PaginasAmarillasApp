@@ -31,7 +31,7 @@
                         android:id="@+id/nombreText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="Compañia del sabor"
+                        tools:text="@string/tet_nombre_empresa"
                         android:textSize="22sp"
                         android:textStyle="bold"/>
 
@@ -40,20 +40,20 @@
                         android:layout_width="220dp"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
-                        tools:text="AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE" />
+                        tools:text="@string/text_direccion" />
 
                     <TextView
                         android:id="@+id/telefonoText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="012242625"
+                        tools:text="@string/text_phone"
                         android:textSize="20sp"/>
 
                     <TextView
                         android:id="@+id/rubroText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="Restarurante"
+                        tools:text="@string/text_rubro"
                         android:textSize="20sp"
                         android:textStyle="bold"/>
 
@@ -81,14 +81,14 @@
                     android:id="@+id/correoText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="informes@companiadelsabor.com"
+                    tools:text="@string/text_correo"
                     android:textSize="20sp"/>
 
                 <TextView
                     android:id="@+id/urlText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="www.companiadelsabor.com"
+                    tools:text="@string/text_url"
                     android:textSize="20sp"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -102,7 +102,7 @@
                 android:id="@+id/infoText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="El sabor original del pollo desde 1960. Cumplimos con todos los estandares de calidaden los productos..."
+                tools:text="@string/text_info"
                 android:textSize="20sp"
                 android:gravity="center"/>
 

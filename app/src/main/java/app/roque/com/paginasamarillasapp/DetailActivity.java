@@ -28,7 +28,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        showToolbar("",true);
+        showToolbar("Detalles",true);
         rubroText = (TextView) findViewById(R.id.rubroText);
         nombreText = (TextView) findViewById(R.id.nombreText);
         direccionText = (TextView) findViewById(R.id.direccionText);
