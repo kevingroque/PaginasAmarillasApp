@@ -1,12 +1,8 @@
 package app.roque.com.paginasamarillasapp.model;
 
-/**
- * Created by keving on 27/09/2017.
- */
-
 public class Empresa {
 
-    private String id;
+    private Integer id;
     private String nombre;
     private String rubro;
     private Integer logo;
@@ -17,7 +13,7 @@ public class Empresa {
     private String info;
 
     public Empresa(String nombre, String rubro, Integer logo,
-                   String direccion, String telefono, String correo, String url, String info,String id) {
+                   String direccion, String telefono, String correo, String url, String info,Integer id) {
         this.nombre = nombre;
         this.rubro = rubro;
         this.logo = logo;
@@ -35,11 +31,11 @@ public class Empresa {
         this.logo = logo;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -8,9 +8,9 @@
     <string name="text_correo">informes@companiadelsabor.com</string>
     <string name="text_rubro">Restarurante</string>
     <string name="text_phone">012242625</string>
-    <string name="text_direccion">AV. AREQUIPA NRO. 1989 LIMA LIMA LINCE</string>
+    <string name="text_direccion">AV. AREQUIPA NRO. 1989 LIMA LINCE</string>
     <string name="tet_nombre_empresa">Compañia del sabor</string>
-    <string name="text_info">El sabor original del pollo desde 1960. Cumplimos con todos los estandares de calidaden los productos...</string>
+    <string name="text_info">El sabor original del pollo desde 1960. Cumplimos con todos los estandares de calidaden los productos</string>
     <string name="detalle_comercio">DIRECTOR GENERAL:
     Francisco Miró Quesada Cantuarias
     DIRECTOR PERIODÍSTICO:
@@ -27,4 +27,9 @@
     <string name="detalle_texas">Somos un restaurant especialista en carnes, parrillas y vinos, el cual ofrece también una gran variedad de opciones gastronómicas para el deleite de nuestros comensales. Desde nuestros inicios, en el año 2012, nos esmeramos por satisfacer las necesidades de nuestros clientes logrando superar sus expectativas gracias a nuestro equipo de colaboradores altamente calificado y nuestra exquisita sazón.</string>
     <string name="detalle_oftal">TG Laser Oftálmica es una clínica dedicada a brindar atención médica especializada en oftalmología con la más alta calidad.</string>
     <string name="detalle_luz">Luz del Sur es una empresa privada de distribución de electricidad que atiende a más de un millón de clientes en la zona sur-este de Lima, capital del Perú. Nuestras ventas superan los 2,166 millones de nuevos soles anuales, convirtiéndonos en una de las más importantes empresas del país, y en una de las principales distribuidoras eléctricas de América Latina. Trabajamos para servir a millones de personas que buscan mejorar su calidad de vida, teniendo como misión brindar apoyo y satisfacción a todos nuestros clientes.</string>
+    <string name="conten_description_btnweb">Web</string>
+    <string name="conten_description_btnemail">Email</string>
+    <string name="conten_description_btnenviar_mensaje">Enviar Mensaje</string>
+    <string name="conten_description_btncompartir">Compartir</string>
+    <string name="conten_description_btnllamar">Llamar</string>
 </resources>

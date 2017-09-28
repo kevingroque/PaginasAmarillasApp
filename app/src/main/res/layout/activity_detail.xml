@@ -7,146 +7,165 @@
     android:orientation="vertical"
     tools:context="app.roque.com.paginasamarillasapp.DetailActivity">
 
-    <include layout="@layout/actionbar_toolbar"></include>
+    <include layout="@layout/actionbar_toolbar"/>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:layout_height="wrap_content">
 
-        <android.support.v7.widget.CardView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="110dp">
-            <RelativeLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:paddingTop="8dp">
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingTop="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/nombreText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="@string/tet_nombre_empresa"
+                            android:textSize="22sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/direccionText"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            tools:text="@string/text_direccion" />
+
+                        <TextView
+                            android:id="@+id/telefonoText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="@string/text_phone"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:id="@+id/rubroText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:text="@string/text_rubro"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/logo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/lg_kfc"
+                        app:civ_border_width="2dp"
+                        android:layout_alignParentEnd="true"
+                        app:civ_border_color="#FF000000"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp">
                     <TextView
-                        android:id="@+id/nombreText"
+                        android:id="@+id/correoText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="@string/tet_nombre_empresa"
-                        android:textSize="22sp"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/direccionText"
-                        android:layout_width="220dp"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        tools:text="@string/text_direccion" />
-
-                    <TextView
-                        android:id="@+id/telefonoText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        tools:text="@string/text_phone"
+                        tools:text="@string/text_correo"
                         android:textSize="20sp"/>
 
                     <TextView
-                        android:id="@+id/rubroText"
+                        android:id="@+id/urlText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="@string/text_rubro"
-                        android:textSize="20sp"
-                        android:textStyle="bold"/>
-
+                        tools:text="@string/text_url"
+                        android:textSize="20sp"/>
                 </LinearLayout>
-                <ImageView
-                    android:id="@+id/logo"
-                    android:layout_marginRight="5dp"
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/lg_kfc"/>
-            </RelativeLayout>
+            </android.support.v7.widget.CardView>
 
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <LinearLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="20dp">
+                android:layout_marginTop="15dp">
                 <TextView
-                    android:id="@+id/correoText"
+                    android:padding="15dp"
+                    android:id="@+id/infoText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="@string/text_correo"
-                    android:textSize="20sp"/>
+                    tools:text="@string/text_info"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
 
-                <TextView
-                    android:id="@+id/urlText"
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="15dp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="@string/text_url"
-                    android:textSize="20sp"/>
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_web"
+                        android:onClick="gotoWeb"
+                        android:contentDescription="@string/conten_description_btnweb" />
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_email"
+                        android:onClick="sendMessage"
+                        android:contentDescription="@string/conten_description_btnemail" />
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_sms"
+                        android:onClick="sendMessage"
+                        android:contentDescription="@string/conten_description_btnenviar_mensaje" />
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_share"
+                        android:onClick="share"
+                        android:contentDescription="@string/conten_description_btncompartir" />
+                    <ImageButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_call"
+                        android:onClick="callNumber"
+                        android:contentDescription="@string/conten_description_btnllamar" />
+                </LinearLayout>
 
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
-            <TextView
-                android:padding="15dp"
-                android:id="@+id/infoText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="@string/text_info"
-                android:textSize="20sp"
-                android:gravity="center"/>
+            </android.support.v7.widget.CardView>
 
-        </android.support.v7.widget.CardView>
+        </LinearLayout>
 
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:layout_marginTop="15dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center">
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_web"
-                    android:onClick="gotoWeb"/>
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_email"
-                    android:onClick="sendMessage"/>
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_sms"
-                    android:onClick="sendMessage"/>
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_share"
-                    android:onClick="share"/>
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_call"
-                    android:onClick="callNumber"/>
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>
